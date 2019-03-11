@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="ssen library project" default="00.build">
+	<property file="ssen.properties" />
+
+	<target name="00.build" depends="01.asdoc, 02.swc, 03.upload" description="full build" />
+
+	<target name="01.asdoc">
+		<delete dir="${output.asdoc}" failOnError="false" includeEmptyDirs="true" />
+		<mkdir dir="${output.asdoc}" />
+
+		<exec executable="${global.exe.asdoc}">
+			<arg line='-source-path ${project.src}' />
+			<arg line='-doc-sources ${project.src}' />
+			<arg line="-library-path ${project.lib}" />
+			<arg line="-library-path ${global.lib.mx}" />
+			<arg line='-window-title "ssen library"' />
+			<arg line='-main-title "ssen library"' />
+			<arg line='-output ${output.asdoc}' />
+		</exec>
+
+		<delete dir="${output.asdoc.reference}" failOnError="false" includeEmptyDirs="true" />
+		<mkdir dir="${output.asdoc.reference}" />
+		<copy todir="${output.asdoc.reference}">
+			<fileset dir="${output.asdoc}" />
+		</copy>
+	</target>
+	<target name="02.swc">
+		<delete dir="${output.swc.folder}" failOnError="false" includeEmptyDirs="true" />
+		<mkdir dir="${output.swc.folder}" />
+
+		<exec executable="${global.exe.compc}">
+			<arg line="-o ${output.swc.folder}\${output.swc.file}" />
+			<arg line="-l ${project.lib}" />
+			<arg line="-sp ${project.src}" />
+			<arg line="-is ${project.src}\ssen" />
+		</exec>
+	</target>
+	<target name="03.upload">
+		<ftp remotedir="${ftp.dir}/asdoc/" password="${ftp.password}" server="${ftp.server}" userid="${ftp.userid}" passive="yes">
+			<fileset dir="${output.asdoc}">
+				<include name="**/*.*" />
+			</fileset>
+		</ftp>
+		<ftp remotedir="${ftp.dir}/swc/" password="${ftp.password}" server="${ftp.server}" userid="${ftp.userid}" passive="yes">
+			<fileset dir="${output.swc.folder}">
+				<include name="*.swc" />
+			</fileset>
+		</ftp>
+	</target>
+	<target name="04.showcase core">
+		<ftp remotedir="${ftp.dir}/showcase/" password="${ftp.password}" server="${ftp.server}" userid="${ftp.userid}" passive="yes">
+			<fileset dir="./bin/showcase">
+				<include name="index.php" />
+				<include name="expressInstall.swf" />
+				<include name="swfobject.js" />
+			</fileset>
+		</ftp>
+	</target>
+	<target name="05.flour showcase">
+		<ftp remotedir="${ftp.dir}/showcase/flour/" password="${ftp.password}" server="${ftp.server}" userid="${ftp.userid}" passive="yes">
+			<fileset dir="./bin/swf">
+				<include name="Flour*.swf" />
+				<include name="flour_font_swc.swf" />
+			</fileset>
+		</ftp>
+	</target>
+	<target name="06.math showcase">
+		<ftp remotedir="${ftp.dir}/showcase/math/" password="${ftp.password}" server="${ftp.server}" userid="${ftp.userid}" passive="yes">
+			<fileset dir="./bin/swf">
+				<include name="PageFlipTest.swf" />
+				<include name="SineCurveExample.swf" />
+			</fileset>
+		</ftp>
+	</target>
+</project>

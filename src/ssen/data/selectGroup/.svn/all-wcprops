@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/61/branches/090129_elle/src/ssen/data/selectGroup
+END
+SelectItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/60/branches/090129_elle/src/ssen/data/selectGroup/SelectItem.as
+END
+SelectType.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/60/branches/090129_elle/src/ssen/data/selectGroup/SelectType.as
+END
+ISelectGroup.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/60/branches/090129_elle/src/ssen/data/selectGroup/ISelectGroup.as
+END
+ISelectItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60/branches/090129_elle/src/ssen/data/selectGroup/ISelectItem.as
+END
+SelectGroup.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/61/branches/090129_elle/src/ssen/data/selectGroup/SelectGroup.as
+END

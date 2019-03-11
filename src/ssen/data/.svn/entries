@@ -1,0 +1,71 @@
+9
+
+dir
+71
+https://ssen-library.googlecode.com/svn/branches/090129_elle/src/ssen/data
+https://ssen-library.googlecode.com/svn
+
+
+
+2009-03-04T12:49:48.217201Z
+65
+iamssen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+06f272c8-d8dc-11dd-a3c7-fda619b15ae3
+
+events
+dir
+
+IDataModel.as
+file
+
+
+
+
+2009-03-02T11:02:33.166500Z
+6bafc1a7119c36b5dfbcded138acc9f8
+2009-03-02T09:14:22.512917Z
+60
+iamssen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+516
+
+pointSelect
+dir
+
+selectGroup
+dir
+

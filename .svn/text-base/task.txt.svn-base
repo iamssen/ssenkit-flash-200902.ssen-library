@@ -1,0 +1,17 @@
+http://code.google.com/p/ssen-library/issues
+
+P1 ssen-library critical
+${serverUrl}/csv?can=1&q=label%3APriority-Critical
+"({Id}[0-9]+?)","({Type}.+?)","({Status}.+?)","({Priority}.+?)","({Milestone}.+?)","({Component}.+?)","({Owner}.+?)","({Description}.+?)"\n
+
+P2 ssen-library high
+${serverUrl}/csv?can=1&q=label%3APriority-High
+"({Id}[0-9]+?)","({Type}.+?)","({Status}.+?)","({Priority}.+?)","({Milestone}.+?)","({Component}.+?)","({Owner}.+?)","({Description}.+?)"\n
+
+P3 ssen-library normal
+${serverUrl}/csv?can=1&q=label%3APriority-Normal
+"({Id}[0-9]+?)","({Type}.+?)","({Status}.+?)","({Priority}.+?)","({Milestone}.+?)","({Component}.+?)","({Owner}.+?)","({Description}.+?)"\n
+
+P4 ssen-library low
+${serverUrl}/csv?can=1&q=label%3APriority-Low
+"({Id}[0-9]+?)","({Type}.+?)","({Status}.+?)","({Priority}.+?)","({Milestone}.+?)","({Component}.+?)","({Owner}.+?)","({Description}.+?)"\n

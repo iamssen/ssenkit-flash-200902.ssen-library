@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">playerglobal.swc</AS3Classpath>
+    <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">src</AS3Classpath>
+    <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">test</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">library/externalPackage.swc</AS3Classpath>
+    <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">examples</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">library/testLibrarys.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">library/flash.swc</AS3Classpath>
+    <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">theme/flour/src</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">theme/flour/library/flour_swc.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">flex.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">framework.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">rpc.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">utilities.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">theme/share/library/thumbnails_swc.swc</AS3Classpath>
+</AS3Classpath>

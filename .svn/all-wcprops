@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 14
+/svn/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/71/branches/090129_elle
+END
+task.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55/branches/090129_elle/task.txt
+END
+ssen_library.mm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/68/branches/090129_elle/ssen_library.mm
+END
+ssen.ant
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/67/branches/090129_elle/ssen.ant
+END

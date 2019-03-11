@@ -1,0 +1,108 @@
+9
+
+dir
+71
+https://ssen-library.googlecode.com/svn/branches/090129_elle/src/ssen/core
+https://ssen-library.googlecode.com/svn
+
+
+
+2009-03-10T03:43:05.192640Z
+71
+iamssen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+06f272c8-d8dc-11dd-a3c7-fda619b15ae3
+
+
+
+
+
+
+0
+
+convert
+dir
+
+graphics
+dir
+
+utils
+dir
+
+text
+dir
+
+events
+dir
+
+display
+dir
+
+motion
+dir
+
+SSenLibraryVersion.as
+file
+
+
+
+
+2009-02-05T14:26:32.757625Z
+de2ab9af2d5a8ed1685433c867910ce4
+2009-02-05T08:58:40.195372Z
+36
+iamssen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+160
+
+net
+dir
+
+geom
+dir
+
+number
+dir
+
+errors
+dir
+
+date
+dir
+
+array
+dir
+

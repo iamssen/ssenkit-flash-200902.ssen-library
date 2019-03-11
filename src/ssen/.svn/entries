@@ -1,0 +1,50 @@
+9
+
+dir
+71
+https://ssen-library.googlecode.com/svn/branches/090129_elle/src/ssen
+https://ssen-library.googlecode.com/svn
+
+
+
+2009-03-10T03:43:05.192640Z
+71
+iamssen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+06f272c8-d8dc-11dd-a3c7-fda619b15ae3
+
+
+
+
+
+
+0
+
+component
+dir
+
+debug
+dir
+
+core
+dir
+
+data
+dir
+
+flash
+dir
+
